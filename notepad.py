@@ -1,7 +1,3 @@
-# Make a Notepad with Python | Python Project
-# https://www.youtube.com/watch?v=gWeo8bZvu8o
-# https://github.com/evanemran/Python_Scripts/tree/main/Notepad
-
 from tkinter import END, INSERT, LEFT, WORD, TRUE, BOTH
 from tkinter.filedialog import *
 import tkinter as tk
