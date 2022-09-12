@@ -1,14 +1,3 @@
-# Make a Weather App in Python | Weather API | Python Project
-# https://www.youtube.com/watch?v=Sz0_2fp27Q0
-# https://home.openweathermap.org/users/sign_in
-# https://openweathermap.org/api
-# https://home.openweathermap.org/api_keys
-# d23a5e1b423961b47787256acb85d7d1
-# https://openweathermap.org/api
-# https://openweathermap.org/api/one-call-3
-# https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}
-# https://github.com/evanemran/Python_Scripts/blob/main/WeatherApp/weather.py
-
 import tkinter as tk
 import requests
 import time
@@ -16,6 +5,7 @@ import time
 
 def getWeather(canvas):
     city = textField.get()
+    # https://home.openweathermap.org/
     api = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=06c921750b9a82d8f5d1294e1586276f"
 
     json_data = requests.get(api).json()
