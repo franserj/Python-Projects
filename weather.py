@@ -1,3 +1,7 @@
+# Heads up:
+# This script uses API
+# You need to get a KEY_API_ID through the site https://home.openweathermap.org/
+
 import tkinter as tk
 import requests
 import time
@@ -5,7 +9,7 @@ import time
 
 def getWeather(canvas):
     city = textField.get()
-    # https://home.openweathermap.org/
+    # Put the KEY_API_ID you got through https://home.openweathermap.org/ in the link below
     api = "https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=KEY_API_ID"
 
     json_data = requests.get(api).json()
