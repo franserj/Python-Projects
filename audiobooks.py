@@ -1,3 +1,6 @@
+# Heads up:
+# You must place the file for reading in the same directory as the code, or specify where it is.
+
 # import pyttsx3
 # speaker = pyttsx3.init()
 # speaker.say("Olá, Mundo! Eu ainda estou aqui!")
